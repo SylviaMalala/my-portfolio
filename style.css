@@ -1,0 +1,50 @@
+html {
+    background-color: brown;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+
+}
+body {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
+
+}
+.name {
+    animation-name: fadeInOut, bounce;
+
+}
+img {
+    height: 50vh;
+    position: relative;
+    max-width: 50vh;
+    align-items: center;
+    justify-content: center;
+}
+#about {
+    padding: 10px;
+    flex: content;
+    
+
+}
+#hobbies {
+    padding: 10px;
+    flex: content;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+#contact {
+    padding: 10px;
+    flex: content;
+}
+ol {
+    text-align: center;
+    display: inline-block
+}
