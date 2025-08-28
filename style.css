@@ -15,10 +15,21 @@ body {
     font-size: 20px;
 
 }
-.name {
-    animation-name: fadeInOut, bounce;
+h1 {
+      font-size: 60px;
+      background: linear-gradient(90deg, #06b6d4, #7c3aed, #10b981);
+      background-size: 300% 300%;
+      -webkit-background-clip: text;
+      color: transparent;
+      animation: slide 5s linear infinite;
+    }
+    @keyframes slide {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
 
-}
+
 img {
     height: 50vh;
     position: relative;
